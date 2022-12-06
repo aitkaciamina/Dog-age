@@ -1,0 +1,37 @@
+var myage = 18;
+// create a variable myage and set it to my age
+var earlyYears =2;
+// create variable earlyYears and set it to 2
+earlyYears*=10.5;
+
+var laterYears = myage-2;
+
+laterYears*=4;
+
+console.log("laterYears : ",laterYears , "earlyYears : ",earlyYears);
+
+var myAgeinDogYears = earlyYears+laterYears;
+
+var myname = "Ait";
+
+myname=myname.toLowerCase();
+ console.log("my name is : "+myname+" and my dog age is : ",myAgeinDogYears, "in dog years");
+ ////////////////////////********************************user data**********************************//////////////////////////////////////////////////////////////////
+var myage = readLine("enter your age : ");
+// create a variable myage and set it to my age
+var earlyYears =2;
+// create variable earlyYears and set it to 2
+earlyYears*=10.5;
+
+var laterYears = myage-2;
+
+laterYears*=4;
+
+console.log("laterYears : ",laterYears , "earlyYears : ",earlyYears);
+
+var myAgeinDogYears = earlyYears+laterYears;
+
+var myname = readLine("enter your name : ");
+
+myname=myname.toLowerCase();
+ console.log("my name is : "+myname+" and my dog age is : ",myAgeinDogYears, "in dog years");
